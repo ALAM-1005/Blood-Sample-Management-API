@@ -1,4 +1,6 @@
-package com.jsp.bsm.entity.enums;
+package com.jsp.bsm.enums;
 
 public enum Gender {
+    MALE,
+    FEMALE,
 }
