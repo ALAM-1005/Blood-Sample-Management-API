@@ -1,6 +1,11 @@
 package com.jsp.bsm.exception;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public class UserNotFoundByIdException extends Throwable {
-    public UserNotFoundByIdException(String failedToFindUser) {
-    }
+
+    private  String message;
 }
